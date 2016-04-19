@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */; };
+		A573EFDA1CC6440300472441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFD91CC6440300472441 /* main.m */; };
+		A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFDC1CC6440300472441 /* AppDelegate.m */; };
+		A573EFE01CC6440300472441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFDF1CC6440300472441 /* ViewController.m */; };
+		A573EFE31CC6440300472441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A573EFE11CC6440300472441 /* Main.storyboard */; };
+		A573EFE51CC6440300472441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A573EFE41CC6440300472441 /* Assets.xcassets */; };
+		A573EFE81CC6440300472441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A573EFE61CC6440300472441 /* LaunchScreen.storyboard */; };
+		A573EFFE1CC6445C00472441 /* DebugConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF11CC6445C00472441 /* DebugConsole.m */; };
+		A573EFFF1CC6445C00472441 /* DebugDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF31CC6445C00472441 /* DebugDataManage.m */; };
+		A573F0001CC6445C00472441 /* DebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF51CC6445C00472441 /* DebugTool.m */; };
+		A573F0011CC6445C00472441 /* DebugToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF71CC6445C00472441 /* DebugToolsViewController.m */; };
+		A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGDebugTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.debug.xcconfig"; sourceTree = "<group>"; };
+		1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.release.xcconfig"; sourceTree = "<group>"; };
+		A573EFD51CC6440300472441 /* PGDebugTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGDebugTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A573EFD91CC6440300472441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A573EFDB1CC6440300472441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A573EFDC1CC6440300472441 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A573EFDE1CC6440300472441 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A573EFDF1CC6440300472441 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A573EFE21CC6440300472441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A573EFE41CC6440300472441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A573EFE71CC6440300472441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A573EFE91CC6440300472441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A573EFF01CC6445C00472441 /* DebugConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugConsole.h; sourceTree = "<group>"; };
+		A573EFF11CC6445C00472441 /* DebugConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugConsole.m; sourceTree = "<group>"; };
+		A573EFF21CC6445C00472441 /* DebugDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugDataManage.h; sourceTree = "<group>"; };
+		A573EFF31CC6445C00472441 /* DebugDataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugDataManage.m; sourceTree = "<group>"; };
+		A573EFF41CC6445C00472441 /* DebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugTool.h; sourceTree = "<group>"; };
+		A573EFF51CC6445C00472441 /* DebugTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugTool.m; sourceTree = "<group>"; };
+		A573EFF61CC6445C00472441 /* DebugToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugToolsViewController.h; sourceTree = "<group>"; };
+		A573EFF71CC6445C00472441 /* DebugToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugToolsViewController.m; sourceTree = "<group>"; };
+		A573EFF81CC6445C00472441 /* JXSetAPIServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSetAPIServerViewController.h; sourceTree = "<group>"; };
+		A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSetAPIServerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A573EFD21CC6440300472441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2DCB3878307EA4C5D1468A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5F9699E22B0D00F72D9448 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */,
+				1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A573EFCC1CC6440300472441 = {
+			isa = PBXGroup;
+			children = (
+				A573EFEF1CC6445C00472441 /* Classes */,
+				A573EFD71CC6440300472441 /* PGDebugTools */,
+				A573EFD61CC6440300472441 /* Products */,
+				5B5F9699E22B0D00F72D9448 /* Pods */,
+				2A2DCB3878307EA4C5D1468A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A573EFD61CC6440300472441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A573EFD51CC6440300472441 /* PGDebugTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A573EFD71CC6440300472441 /* PGDebugTools */ = {
+			isa = PBXGroup;
+			children = (
+				A573EFDB1CC6440300472441 /* AppDelegate.h */,
+				A573EFDC1CC6440300472441 /* AppDelegate.m */,
+				A573EFDE1CC6440300472441 /* ViewController.h */,
+				A573EFDF1CC6440300472441 /* ViewController.m */,
+				A573EFE11CC6440300472441 /* Main.storyboard */,
+				A573EFE41CC6440300472441 /* Assets.xcassets */,
+				A573EFE61CC6440300472441 /* LaunchScreen.storyboard */,
+				A573EFE91CC6440300472441 /* Info.plist */,
+				A573EFD81CC6440300472441 /* Supporting Files */,
+			);
+			path = PGDebugTools;
+			sourceTree = "<group>";
+		};
+		A573EFD81CC6440300472441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A573EFD91CC6440300472441 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A573EFEF1CC6445C00472441 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A573EFF01CC6445C00472441 /* DebugConsole.h */,
+				A573EFF11CC6445C00472441 /* DebugConsole.m */,
+				A573EFF21CC6445C00472441 /* DebugDataManage.h */,
+				A573EFF31CC6445C00472441 /* DebugDataManage.m */,
+				A573EFF41CC6445C00472441 /* DebugTool.h */,
+				A573EFF51CC6445C00472441 /* DebugTool.m */,
+				A573EFF61CC6445C00472441 /* DebugToolsViewController.h */,
+				A573EFF71CC6445C00472441 /* DebugToolsViewController.m */,
+				A573EFF81CC6445C00472441 /* JXSetAPIServerViewController.h */,
+				A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A573EFD41CC6440300472441 /* PGDebugTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A573EFEC1CC6440300472441 /* Build configuration list for PBXNativeTarget "PGDebugTools" */;
+			buildPhases = (
+				540BCEEE38FE84F4CF705540 /* Check Pods Manifest.lock */,
+				A573EFD11CC6440300472441 /* Sources */,
+				A573EFD21CC6440300472441 /* Frameworks */,
+				A573EFD31CC6440300472441 /* Resources */,
+				F836C1536C368FF277394AF7 /* Embed Pods Frameworks */,
+				76CABE9B1D61066E8FA343EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGDebugTools;
+			productName = PGDebugTools;
+			productReference = A573EFD51CC6440300472441 /* PGDebugTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A573EFCD1CC6440300472441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiuxian.com;
+				TargetAttributes = {
+					A573EFD41CC6440300472441 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A573EFD01CC6440300472441 /* Build configuration list for PBXProject "PGDebugTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A573EFCC1CC6440300472441;
+			productRefGroup = A573EFD61CC6440300472441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A573EFD41CC6440300472441 /* PGDebugTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A573EFD31CC6440300472441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A573EFE81CC6440300472441 /* LaunchScreen.storyboard in Resources */,
+				A573EFE51CC6440300472441 /* Assets.xcassets in Resources */,
+				A573EFE31CC6440300472441 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		540BCEEE38FE84F4CF705540 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76CABE9B1D61066E8FA343EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F836C1536C368FF277394AF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A573EFD11CC6440300472441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A573F0011CC6445C00472441 /* DebugToolsViewController.m in Sources */,
+				A573EFFF1CC6445C00472441 /* DebugDataManage.m in Sources */,
+				A573F0001CC6445C00472441 /* DebugTool.m in Sources */,
+				A573EFE01CC6440300472441 /* ViewController.m in Sources */,
+				A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */,
+				A573EFDA1CC6440300472441 /* main.m in Sources */,
+				A573EFFE1CC6445C00472441 /* DebugConsole.m in Sources */,
+				A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A573EFE11CC6440300472441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A573EFE21CC6440300472441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A573EFE61CC6440300472441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A573EFE71CC6440300472441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A573EFEA1CC6440300472441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A573EFEB1CC6440300472441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A573EFED1CC6440300472441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PGDebugTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.PGDebugTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A573EFEE1CC6440300472441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PGDebugTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.PGDebugTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A573EFD01CC6440300472441 /* Build configuration list for PBXProject "PGDebugTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A573EFEA1CC6440300472441 /* Debug */,
+				A573EFEB1CC6440300472441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A573EFEC1CC6440300472441 /* Build configuration list for PBXNativeTarget "PGDebugTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A573EFED1CC6440300472441 /* Debug */,
+				A573EFEE1CC6440300472441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A573EFCD1CC6440300472441 /* Project object */;
+}
