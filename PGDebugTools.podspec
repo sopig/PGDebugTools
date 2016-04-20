@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    iOS 调试工具 PGDebugTools.
+                  iOS 调试工具 PGDebugTools
                    DESC
 
   s.homepage     = "https://github.com/sopig/PGDebugTools.git"
@@ -51,10 +51,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-
-  
-
-  # s.resource  = "icon.png"
+  #s.resource  = "icon.png"
   #s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -82,6 +79,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "PGAppconfig", :git => "https://github.com/sopig/PGAppconfig.git"
+  # s.dependency "PGAppconfig", :git => "https://github.com/sopig/PGAppconfig.git"
 
 end
