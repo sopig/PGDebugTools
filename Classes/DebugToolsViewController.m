@@ -15,6 +15,9 @@
 
 @interface DebugToolsViewController ()
 
+
+@property(nonatomic, strong) UILabel *navBar;
+
 @property(nonatomic, strong) UITableView *tableView;
 
 @property(nonatomic, strong) DebugDataManage *dataManage;
@@ -67,6 +70,20 @@
             bself.dataManage.vc = self;
             
         }
+        
+        if (!bself.navBar) {
+            bself.navBar = [UILabel new];
+            [bself.view addSubview:bself.navBar];
+            
+            [bself.navBar mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.top.mas_equalTo(self.view.mas_top);
+                make.right.mas_equalTo(self.view.mas_right);
+                make.left.mas_equalTo(self.view.mas_left);
+                make.height.mas_equalTo(64);
+            }];
+            bself.navBar.text = @"酒仙网调试工具_V0.0.2";
+
+        }
 
         if (!bself.tableView) {
             bself.tableView = [UITableView new];
@@ -79,6 +96,9 @@
 
         bself.tableView.delegate = bself.dataManage;
         bself.tableView.dataSource = bself.dataManage;
+        
+        
+        
 
         return bself;
     };

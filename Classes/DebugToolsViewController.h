@@ -10,6 +10,4 @@
 
 @interface DebugToolsViewController :UIViewController
 
-@property (nonatomic , strong) __kindof UINavigationController *nav;
-
 @end
