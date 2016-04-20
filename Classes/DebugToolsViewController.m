@@ -81,7 +81,9 @@
                 make.left.mas_equalTo(self.view.mas_left);
                 make.height.mas_equalTo(64);
             }];
-            bself.navBar.text = @"酒仙网调试工具_V0.0.2";
+            bself.navBar.text = @"酒仙网调试工具_V0.0.2 --sopig.cn";
+            bself.navBar.textAlignment = NSTextAlignmentCenter;
+            bself.navBar.textColor = [UIColor orangeColor];
 
         }
 
