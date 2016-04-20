@@ -9,7 +9,7 @@ target 'PGDebugTools' do
 
 pod 'Masonry', '~> 0.6.4'
 
-pod 'PGNetworking', :git => "https://github.com/sopig/PGNetworking.git"
+pod 'PGAppconfig', :git => "https://github.com/sopig/PGAppconfig.git"
 
 end
 
