@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "DebugToolsViewController.h"
+@interface ViewController (){
+    UINavigationController *nav ;
+}
 
 @end
 
@@ -17,7 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
+    nav = [UINavigationController new];
+    
 }
+
+
+- (IBAction)action:(id)sender {
+    
+    DebugToolsViewController *vc = [DebugToolsViewController new];
+//    [nav pushViewController:vc animated:YES];
+
+    [self presentViewController:vc animated:YES completion:nil];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -8,7 +8,7 @@
 
 #import "DebugToolsViewController.h"
 #import "DebugDataManage.h"
-
+#import "DataManagerSource.h"
 #import "Masonry.h"
 
 #define weakself typeof(self) __weak bself = self;
@@ -31,15 +31,17 @@
     [self.tableView reloadData];
 }
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     self.title = @"调试工具";
     self.navigationController.navigationBarHidden = YES;
-
-    
     self.setup();
-
+   
+    
 }
 
 
@@ -59,8 +61,11 @@
         bself.navigationItem.hidesBackButton = YES;
 
         if (!bself.dataManage) {
-            bself.dataManage = [DebugDataManage manage];
+            DebugDataManage *manager = [DebugDataManage manage];
+            manager.source = [DataManagerSource new];
+            bself.dataManage = manager;
             bself.dataManage.vc = self;
+            
         }
 
         if (!bself.tableView) {

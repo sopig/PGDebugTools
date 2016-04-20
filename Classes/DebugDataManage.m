@@ -9,6 +9,9 @@
 #import "DebugDataManage.h"
 #import "DebugConsole.h"
 #import "JXSetAPIServerViewController.h"
+#import "APIServiceSource.h"
+#import "DataManagerSource.h"
+
 
 @interface DebugDataManage ()
 
@@ -33,22 +36,6 @@
 }
 
 
-
-//- (NSMutableArray<NSString *> *)source {
-//    if (!_source) {
-//        _source = [NSMutableArray arrayWithArray:@[@"隐藏工具",
-//                @"选择服务器环境",
-//                @"查看调试信息",
-//                @"crash异常捕捉",
-//                @"代码测试页面"
-//        ]];
-//    }
-//
-//
-//    return _source;
-//}
-//
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     static NSString *idf = @"com.debugManage.idf";
@@ -66,11 +53,13 @@
     NSUInteger row = indexPath.row;
 
     if (row == 0) {
-        
+        [self.vc dismissViewControllerAnimated:YES completion:nil];
     } else if (row == 1) {
 
         JXSetAPIServerViewController *vc = [JXSetAPIServerViewController new];
+        vc.source = [APIServiceSource new];
         
+        [self.vc presentViewController:vc animated:YES completion:nil];
 
     } else if (row == 2) {
         [DebugConsole startService];
@@ -80,9 +69,9 @@
         NSArray *arr = @[@"a", @"b"];
         NSLog(@"exception point = %@", arr[3]);
     } else if (row == 4) {
-        Class  cls = NSClassFromString(@"TestVC");
+        Class  cls = NSClassFromString(@"TestCodingVC");
         if (cls) {
-           
+            [self.vc presentViewController:[cls new] animated:YES completion:nil];
         }
         
     }

@@ -19,6 +19,9 @@
 		A573F0001CC6445C00472441 /* DebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF51CC6445C00472441 /* DebugTool.m */; };
 		A573F0011CC6445C00472441 /* DebugToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF71CC6445C00472441 /* DebugToolsViewController.m */; };
 		A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */; };
+		A573F05F1CC72E3300472441 /* APIServiceSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F05E1CC72E3300472441 /* APIServiceSource.m */; };
+		A573F0621CC72F0700472441 /* DataManagerSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0611CC72F0700472441 /* DataManagerSource.m */; };
+		A573F0661CC7598300472441 /* TestCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0651CC7598300472441 /* TestCodingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,12 @@
 		A573EFF71CC6445C00472441 /* DebugToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugToolsViewController.m; sourceTree = "<group>"; };
 		A573EFF81CC6445C00472441 /* JXSetAPIServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSetAPIServerViewController.h; sourceTree = "<group>"; };
 		A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSetAPIServerViewController.m; sourceTree = "<group>"; };
+		A573F05D1CC72E3300472441 /* APIServiceSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIServiceSource.h; sourceTree = "<group>"; };
+		A573F05E1CC72E3300472441 /* APIServiceSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIServiceSource.m; sourceTree = "<group>"; };
+		A573F0601CC72F0700472441 /* DataManagerSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManagerSource.h; sourceTree = "<group>"; };
+		A573F0611CC72F0700472441 /* DataManagerSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagerSource.m; sourceTree = "<group>"; };
+		A573F0641CC7598300472441 /* TestCodingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCodingVC.h; sourceTree = "<group>"; };
+		A573F0651CC7598300472441 /* TestCodingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCodingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,12 @@
 				A573EFF71CC6445C00472441 /* DebugToolsViewController.m */,
 				A573EFF81CC6445C00472441 /* JXSetAPIServerViewController.h */,
 				A573EFF91CC6445C00472441 /* JXSetAPIServerViewController.m */,
+				A573F05D1CC72E3300472441 /* APIServiceSource.h */,
+				A573F05E1CC72E3300472441 /* APIServiceSource.m */,
+				A573F0601CC72F0700472441 /* DataManagerSource.h */,
+				A573F0611CC72F0700472441 /* DataManagerSource.m */,
+				A573F0641CC7598300472441 /* TestCodingVC.h */,
+				A573F0651CC7598300472441 /* TestCodingVC.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -265,6 +280,9 @@
 				A573EFDA1CC6440300472441 /* main.m in Sources */,
 				A573EFFE1CC6445C00472441 /* DebugConsole.m in Sources */,
 				A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */,
+				A573F0661CC7598300472441 /* TestCodingVC.m in Sources */,
+				A573F0621CC72F0700472441 /* DataManagerSource.m in Sources */,
+				A573F05F1CC72E3300472441 /* APIServiceSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

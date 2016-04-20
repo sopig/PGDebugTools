@@ -22,19 +22,6 @@
 @implementation JXSetAPIServerViewController
 
 
-//- (NSMutableArray *)source {
-//    if (!_source) {
-//        _source = [NSMutableArray arrayWithArray:@[[[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_115],
-//                [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_116],
-//                [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_GRAY],
-//                [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_ONLINE],
-//                [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_TEST],
-//                [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_reserve]
-//        ]];
-//    }
-//    return _source;
-//}
-
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.tableView reloadData];
@@ -89,14 +76,16 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:idf];
 
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:idf];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:idf];
     }
     if (indexPath.row <= ([self.source APIServiceSource].count -1)) {
      cell.textLabel.text = [self.source APIServiceSource][indexPath.row][@"JXBASE_URL_HOME"];
+     cell.detailTextLabel.text = [self.source APIServiceSource][indexPath.row][@"description"];
     }
    
     if ([[[NSUserDefaults standardUserDefaults] valueForKey:HOSTDOMAIN] integerValue] == indexPath.row) {
         cell.textLabel.textColor = [UIColor redColor];
+        cell.detailTextLabel.textColor = [UIColor redColor];
     }
 
     return cell;
@@ -104,9 +93,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger row = indexPath.row;
-
     [[NSUserDefaults standardUserDefaults] setValue:@(row) forKey:HOSTDOMAIN];
     [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
@@ -116,7 +106,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 50;
+    return 80;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
