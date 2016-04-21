@@ -23,7 +23,7 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 #if defined(DEBUG)||defined(_DEBUG)
- 
+#if 0
     int twoFingerTag=NO;
     if ([event allTouches].count==2) {
         for (UITouch *touch in [event allTouches]) {
@@ -37,6 +37,7 @@
     if (twoFingerTag) {
         [[NEShakeGestureManager defaultManager] showAlertView];
     }
+#endif
 #endif
   
 }
