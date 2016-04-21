@@ -84,10 +84,10 @@
 
     if (indexPath.row==0) {
         cell.textLabel.textColor=[UIColor blackColor];
-        cell.textLabel.text=@"NetworkEye Enable";
+        cell.textLabel.text=@"开启监控";
     }else{
         cell.textLabel.textColor=[UIColor colorWithRed:0.88 green:0.22 blue:0.22 alpha:1];
-        cell.textLabel.text=@"Clear Recorded Requests";
+        cell.textLabel.text=@"清楚记录";
     }
     
     return cell;
@@ -112,6 +112,8 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex NS_DEPRECATED_IOS(2_0, 9_0){
     if(buttonIndex==0){
         [[NEHTTPModelManager defaultManager] deleteAllItem];
+        double flowCount=[[[NSUserDefaults standardUserDefaults] objectForKey:@"flowCount"] doubleValue];
+            flowCount=0.0;
     }
 }
 
