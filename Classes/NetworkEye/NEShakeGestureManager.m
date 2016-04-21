@@ -46,8 +46,8 @@
     if (_alertView == nil) {
         _alertView = [[UIAlertView alloc] init];
         _alertView.delegate = self;
-        _alertView.title = @"Network Eye";
-        [_alertView addButtonWithTitle:@"Go NetworkEye"];
+        _alertView.title = @"http(s)本地监控--仿听云";
+        [_alertView addButtonWithTitle:@"去查看--酒仙听云"];
         [_alertView addButtonWithTitle:@"Cancel"];
         [_alertView setCancelButtonIndex:[_alertView numberOfButtons]-1];
     }

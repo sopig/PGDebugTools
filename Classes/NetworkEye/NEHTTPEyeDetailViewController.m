@@ -31,7 +31,7 @@
 
     UINavigationBar *bar=[[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, 64)];
     [self.view addSubview:bar];
-    bar.barTintColor=[UIColor colorWithRed:0.24f green:0.51f blue:0.78f alpha:1.00f];
+    bar.barTintColor=[UIColor grayColor];//[UIColor colorWithRed:0.24f green:0.51f blue:0.78f alpha:1.00f];
     
     UIButton *backBt=[UIButton buttonWithType:UIButtonTypeCustom];
     backBt.frame=CGRectMake(10, 27, 40, 30);

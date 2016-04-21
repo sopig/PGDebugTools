@@ -15,7 +15,7 @@
 #if defined(DEBUG)||defined(_DEBUG)
  
     if (event.type == UIEventTypeMotion && event.subtype == UIEventSubtypeMotionShake) {
-        [[NEShakeGestureManager defaultManager] showAlertView];
+//        [[NEShakeGestureManager defaultManager] showAlertView];
     }
 #endif
   
