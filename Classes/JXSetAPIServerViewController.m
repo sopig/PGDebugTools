@@ -79,8 +79,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:idf];
     }
     if (indexPath.row <= ([self.source APIServiceSource].count -1)) {
-     cell.textLabel.text = [self.source APIServiceSource][indexPath.row][@"JXBASE_URL_HOME"];
-     cell.detailTextLabel.text = [self.source APIServiceSource][indexPath.row][@"description"];
+     cell.detailTextLabel.text = [self.source APIServiceSource][indexPath.row][@"JXBASE_URL_HOME"];
+     cell.textLabel.text = [self.source APIServiceSource][indexPath.row][@"description"];
     }
    
     if ([[[NSUserDefaults standardUserDefaults] valueForKey:HOSTDOMAIN] integerValue] == indexPath.row) {

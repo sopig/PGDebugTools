@@ -22,6 +22,15 @@
 		A573F05F1CC72E3300472441 /* APIServiceSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F05E1CC72E3300472441 /* APIServiceSource.m */; };
 		A573F0621CC72F0700472441 /* DataManagerSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0611CC72F0700472441 /* DataManagerSource.m */; };
 		A573F0661CC7598300472441 /* TestCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0651CC7598300472441 /* TestCodingVC.m */; };
+		A573F0D31CC8659400472441 /* NEHTTPEye.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0C21CC8659400472441 /* NEHTTPEye.m */; };
+		A573F0D41CC8659400472441 /* NEHTTPEyeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0C41CC8659400472441 /* NEHTTPEyeDetailViewController.m */; };
+		A573F0D51CC8659400472441 /* NEHTTPEyeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0C61CC8659400472441 /* NEHTTPEyeSettingsViewController.m */; };
+		A573F0D61CC8659400472441 /* NEHTTPEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0C81CC8659400472441 /* NEHTTPEyeViewController.m */; };
+		A573F0D71CC8659400472441 /* NEHTTPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0CA1CC8659400472441 /* NEHTTPModel.m */; };
+		A573F0D81CC8659400472441 /* NEHTTPModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0CC1CC8659400472441 /* NEHTTPModelManager.m */; };
+		A573F0D91CC8659400472441 /* NEShakeGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0CE1CC8659400472441 /* NEShakeGestureManager.m */; };
+		A573F0DA1CC8659400472441 /* NEURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0D01CC8659400472441 /* NEURLSessionConfiguration.m */; };
+		A573F0DB1CC8659400472441 /* UIWindow+NEExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0D21CC8659400472441 /* UIWindow+NEExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +63,24 @@
 		A573F0611CC72F0700472441 /* DataManagerSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManagerSource.m; sourceTree = "<group>"; };
 		A573F0641CC7598300472441 /* TestCodingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCodingVC.h; sourceTree = "<group>"; };
 		A573F0651CC7598300472441 /* TestCodingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCodingVC.m; sourceTree = "<group>"; };
+		A573F0C11CC8659400472441 /* NEHTTPEye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEye.h; sourceTree = "<group>"; };
+		A573F0C21CC8659400472441 /* NEHTTPEye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEye.m; sourceTree = "<group>"; };
+		A573F0C31CC8659400472441 /* NEHTTPEyeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeDetailViewController.h; sourceTree = "<group>"; };
+		A573F0C41CC8659400472441 /* NEHTTPEyeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeDetailViewController.m; sourceTree = "<group>"; };
+		A573F0C51CC8659400472441 /* NEHTTPEyeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeSettingsViewController.h; sourceTree = "<group>"; };
+		A573F0C61CC8659400472441 /* NEHTTPEyeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeSettingsViewController.m; sourceTree = "<group>"; };
+		A573F0C71CC8659400472441 /* NEHTTPEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeViewController.h; sourceTree = "<group>"; };
+		A573F0C81CC8659400472441 /* NEHTTPEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeViewController.m; sourceTree = "<group>"; };
+		A573F0C91CC8659400472441 /* NEHTTPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModel.h; sourceTree = "<group>"; };
+		A573F0CA1CC8659400472441 /* NEHTTPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModel.m; sourceTree = "<group>"; };
+		A573F0CB1CC8659400472441 /* NEHTTPModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModelManager.h; sourceTree = "<group>"; };
+		A573F0CC1CC8659400472441 /* NEHTTPModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModelManager.m; sourceTree = "<group>"; };
+		A573F0CD1CC8659400472441 /* NEShakeGestureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEShakeGestureManager.h; sourceTree = "<group>"; };
+		A573F0CE1CC8659400472441 /* NEShakeGestureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEShakeGestureManager.m; sourceTree = "<group>"; };
+		A573F0CF1CC8659400472441 /* NEURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEURLSessionConfiguration.h; sourceTree = "<group>"; };
+		A573F0D01CC8659400472441 /* NEURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEURLSessionConfiguration.m; sourceTree = "<group>"; };
+		A573F0D11CC8659400472441 /* UIWindow+NEExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NEExtension.h"; sourceTree = "<group>"; };
+		A573F0D21CC8659400472441 /* UIWindow+NEExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NEExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +158,7 @@
 		A573EFEF1CC6445C00472441 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A573F0C01CC8659400472441 /* NetworkEye */,
 				A573EFF01CC6445C00472441 /* DebugConsole.h */,
 				A573EFF11CC6445C00472441 /* DebugConsole.m */,
 				A573EFF21CC6445C00472441 /* DebugDataManage.h */,
@@ -149,6 +177,31 @@
 				A573F0651CC7598300472441 /* TestCodingVC.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A573F0C01CC8659400472441 /* NetworkEye */ = {
+			isa = PBXGroup;
+			children = (
+				A573F0C11CC8659400472441 /* NEHTTPEye.h */,
+				A573F0C21CC8659400472441 /* NEHTTPEye.m */,
+				A573F0C31CC8659400472441 /* NEHTTPEyeDetailViewController.h */,
+				A573F0C41CC8659400472441 /* NEHTTPEyeDetailViewController.m */,
+				A573F0C51CC8659400472441 /* NEHTTPEyeSettingsViewController.h */,
+				A573F0C61CC8659400472441 /* NEHTTPEyeSettingsViewController.m */,
+				A573F0C71CC8659400472441 /* NEHTTPEyeViewController.h */,
+				A573F0C81CC8659400472441 /* NEHTTPEyeViewController.m */,
+				A573F0C91CC8659400472441 /* NEHTTPModel.h */,
+				A573F0CA1CC8659400472441 /* NEHTTPModel.m */,
+				A573F0CB1CC8659400472441 /* NEHTTPModelManager.h */,
+				A573F0CC1CC8659400472441 /* NEHTTPModelManager.m */,
+				A573F0CD1CC8659400472441 /* NEShakeGestureManager.h */,
+				A573F0CE1CC8659400472441 /* NEShakeGestureManager.m */,
+				A573F0CF1CC8659400472441 /* NEURLSessionConfiguration.h */,
+				A573F0D01CC8659400472441 /* NEURLSessionConfiguration.m */,
+				A573F0D11CC8659400472441 /* UIWindow+NEExtension.h */,
+				A573F0D21CC8659400472441 /* UIWindow+NEExtension.m */,
+			);
+			path = NetworkEye;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,14 +325,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A573F0D61CC8659400472441 /* NEHTTPEyeViewController.m in Sources */,
 				A573F0011CC6445C00472441 /* DebugToolsViewController.m in Sources */,
 				A573EFFF1CC6445C00472441 /* DebugDataManage.m in Sources */,
 				A573F0001CC6445C00472441 /* DebugTool.m in Sources */,
 				A573EFE01CC6440300472441 /* ViewController.m in Sources */,
 				A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */,
+				A573F0DB1CC8659400472441 /* UIWindow+NEExtension.m in Sources */,
+				A573F0DA1CC8659400472441 /* NEURLSessionConfiguration.m in Sources */,
 				A573EFDA1CC6440300472441 /* main.m in Sources */,
+				A573F0D91CC8659400472441 /* NEShakeGestureManager.m in Sources */,
 				A573EFFE1CC6445C00472441 /* DebugConsole.m in Sources */,
+				A573F0D41CC8659400472441 /* NEHTTPEyeDetailViewController.m in Sources */,
+				A573F0D51CC8659400472441 /* NEHTTPEyeSettingsViewController.m in Sources */,
 				A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */,
+				A573F0D31CC8659400472441 /* NEHTTPEye.m in Sources */,
+				A573F0D81CC8659400472441 /* NEHTTPModelManager.m in Sources */,
+				A573F0D71CC8659400472441 /* NEHTTPModel.m in Sources */,
 				A573F0661CC7598300472441 /* TestCodingVC.m in Sources */,
 				A573F0621CC72F0700472441 /* DataManagerSource.m in Sources */,
 				A573F05F1CC72E3300472441 /* APIServiceSource.m in Sources */,

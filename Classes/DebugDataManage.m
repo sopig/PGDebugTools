@@ -69,7 +69,8 @@
         NSArray *arr = @[@"a", @"b"];
         NSLog(@"exception point = %@", arr[3]);
     } else if (row == 4) {
-        Class  cls = NSClassFromString(@"TestCodingVC");
+
+        Class  cls = NSClassFromString(@"NEHTTPEyeViewController");
         if (cls) {
             [self.vc presentViewController:[cls new] animated:YES completion:nil];
         }
