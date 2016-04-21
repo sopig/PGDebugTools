@@ -70,7 +70,7 @@
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     
     NSString *buttonTitle = [alertView buttonTitleAtIndex:buttonIndex];
-    if ([buttonTitle isEqualToString:@"Go NetworkEye"]) {
+    if ([buttonTitle isEqualToString:@"去查看--酒仙听云"]) {
         [self presentInformationViewController];
     }
 }
