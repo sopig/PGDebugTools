@@ -102,7 +102,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row==1) {
-        UIAlertView *alertView=[[UIAlertView alloc] initWithTitle:@"message" message:@"Are you sure to delete it" delegate:self cancelButtonTitle:@"yes" otherButtonTitles:@"no", nil];
+        UIAlertView *alertView=[[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"你确定要删除？" delegate:self cancelButtonTitle:@"yes" otherButtonTitles:@"no", nil];
         [alertView show];
     }
     
@@ -112,8 +112,6 @@
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex NS_DEPRECATED_IOS(2_0, 9_0){
     if(buttonIndex==0){
         [[NEHTTPModelManager defaultManager] deleteAllItem];
-        double flowCount=[[[NSUserDefaults standardUserDefaults] objectForKey:@"flowCount"] doubleValue];
-            flowCount=0.0;
     }
 }
 
