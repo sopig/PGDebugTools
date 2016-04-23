@@ -53,13 +53,13 @@
     NSUInteger row = indexPath.row;
 
     if (row == 0) {
-        [self.vc dismissViewControllerAnimated:YES completion:nil];
+        [self.vc dismissViewControllerAnimated:NO completion:nil];
     } else if (row == 1) {
 
         JXSetAPIServerViewController *vc = [JXSetAPIServerViewController new];
         vc.source = [APIServiceSource new];
         
-        [self.vc presentViewController:vc animated:YES completion:nil];
+        [self.vc presentViewController:vc animated:NO completion:nil];
 
     } else if (row == 2) {
         [DebugConsole startService];
@@ -72,7 +72,7 @@
 
         Class  cls = NSClassFromString(@"NEHTTPEyeViewController");
         if (cls) {
-            [self.vc presentViewController:[cls new] animated:YES completion:nil];
+            [self.vc presentViewController:[cls new] animated:NO completion:nil];
         }
         
     }

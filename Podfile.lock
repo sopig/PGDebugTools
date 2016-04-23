@@ -2,6 +2,7 @@ PODS:
   - FMDB/SQLCipher (2.6.2):
     - SQLCipher
   - Masonry (0.6.4)
+  - NSDictionary+Accessors (1.0.0)
   - PGAppconfig (0.0.1)
   - SQLCipher (3.1.0):
     - SQLCipher/standard (= 3.1.0)
@@ -12,6 +13,7 @@ PODS:
 DEPENDENCIES:
   - FMDB/SQLCipher (~> 2.5)
   - Masonry (~> 0.6.4)
+  - NSDictionary+Accessors
   - PGAppconfig (from `https://github.com/sopig/PGAppconfig.git`)
 
 EXTERNAL SOURCES:
@@ -26,6 +28,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc
   PGAppconfig: c9f12f596104411b95cee9497b9822a02db8bdf4
   SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
 

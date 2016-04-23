@@ -9,3 +9,5 @@
 #import "DebugTool.h"
 
 NSString *const HOSTDOMAIN = @"com.Debugtool.hostdomain";
+
+NSString *const HostDomainChangeNotification = @"com_Debugtool_HostDomainChangeNotification";

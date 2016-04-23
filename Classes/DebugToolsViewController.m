@@ -76,12 +76,12 @@
             [bself.view addSubview:bself.navBar];
             
             [bself.navBar mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.top.mas_equalTo(self.view.mas_top);
+                make.top.mas_equalTo(self.view.mas_top).offset(5);
                 make.right.mas_equalTo(self.view.mas_right);
                 make.left.mas_equalTo(self.view.mas_left);
                 make.height.mas_equalTo(64);
             }];
-            bself.navBar.text = @"酒仙网调试工具_V0.0.2 --sopig.cn";
+            bself.navBar.text = @"酒仙网调试工具_V0.0.2 -- sopig.cn ";
             bself.navBar.textAlignment = NSTextAlignmentCenter;
             bself.navBar.textColor = [UIColor orangeColor];
 

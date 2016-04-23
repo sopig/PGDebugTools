@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *const _Nonnull HOSTDOMAIN ;
+FOUNDATION_EXPORT NSString *const _Nonnull HOSTDOMAIN ;
+FOUNDATION_EXPORT NSString *const _Nonnull HostDomainChangeNotification;
 
 @protocol APIServiceSource <NSObject>
 

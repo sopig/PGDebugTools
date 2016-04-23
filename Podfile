@@ -13,5 +13,7 @@ pod 'PGAppconfig', :git => "https://github.com/sopig/PGAppconfig.git"
 
 pod 'FMDB/SQLCipher', "~> 2.5"
 
+pod 'NSDictionary+Accessors'
+
 end
 

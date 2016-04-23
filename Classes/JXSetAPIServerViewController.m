@@ -93,10 +93,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSUInteger row = indexPath.row;
-    [[NSUserDefaults standardUserDefaults] setValue:@(row) forKey:HOSTDOMAIN];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if ([[NSUserDefaults standardUserDefaults] integerForKey:HOSTDOMAIN] != row) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:HostDomainChangeNotification object:@(row)];
+        [[NSUserDefaults standardUserDefaults] setValue:@(row) forKey:HOSTDOMAIN];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+   
+    
+    [self dismissViewControllerAnimated:NO completion:nil];
     
 }
 
