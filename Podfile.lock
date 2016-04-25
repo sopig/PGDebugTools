@@ -1,4 +1,5 @@
 PODS:
+  - FLEX (2.1.1)
   - FMDB/SQLCipher (2.6.2):
     - SQLCipher
   - Masonry (0.6.4)
@@ -11,6 +12,7 @@ PODS:
     - SQLCipher/common
 
 DEPENDENCIES:
+  - FLEX
   - FMDB/SQLCipher (~> 2.5)
   - Masonry (~> 0.6.4)
   - NSDictionary+Accessors
@@ -26,6 +28,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/sopig/PGAppconfig.git
 
 SPEC CHECKSUMS:
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc

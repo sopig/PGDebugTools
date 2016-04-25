@@ -15,5 +15,7 @@ pod 'FMDB/SQLCipher', "~> 2.5"
 
 pod 'NSDictionary+Accessors'
 
+pod 'FLEX'
+
 end
 

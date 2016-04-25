@@ -81,4 +81,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "PGAppconfig", :git => "https://github.com/sopig/PGAppconfig.git"
   s.dependency "FMDB/SQLCipher", "~> 2.5"
+  s.dependency "FLEX"
 end

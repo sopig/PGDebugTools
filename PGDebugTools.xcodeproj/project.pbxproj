@@ -455,10 +455,13 @@
 			baseConfigurationReference = 1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
 				INFOPLIST_FILE = PGDebugTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.PGDebugTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a3e7e05-51c6-44bb-97a6-1d4691fbc83a";
 			};
 			name = Debug;
 		};
@@ -471,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.PGDebugTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7a3e7e05-51c6-44bb-97a6-1d4691fbc83a";
 			};
 			name = Release;
 		};

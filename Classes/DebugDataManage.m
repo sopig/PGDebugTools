@@ -11,6 +11,7 @@
 #import "JXSetAPIServerViewController.h"
 #import "APIServiceSource.h"
 #import "DataManagerSource.h"
+#import "FLEXManager.h"
 
 
 @interface DebugDataManage ()
@@ -74,6 +75,11 @@
         if (cls) {
             [self.vc presentViewController:[cls new] animated:NO completion:nil];
         }
+        
+    } else if (row == 5){
+        
+            [[FLEXManager sharedManager] showExplorer];
+            [self.vc dismissViewControllerAnimated:YES completion:nil];
         
     }
 }
