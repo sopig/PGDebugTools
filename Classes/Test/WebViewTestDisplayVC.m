@@ -16,7 +16,7 @@
 
 @implementation WebViewTestDisplayVC
 
-- (void)viewdidload{
+- (void)viewDidLoad{
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64)];
