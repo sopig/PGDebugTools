@@ -22,8 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.automaticallyAdjustsScrollViewInsets = NO;
+    self.view.backgroundColor = [UIColor lightGrayColor];
     [self initTextView];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [_textView becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,6 +47,8 @@
     _textView.textColor = [UIColor blackColor];
     _textView.returnKeyType = UIReturnKeyGo;
     _textView.layer.cornerRadius = 3;
+    _textView.layer.borderWidth = 1;
+    _textView.layer.borderColor = [UIColor redColor].CGColor;
     _textView.textContainer.lineBreakMode = NSLineBreakByCharWrapping;
     _textView.showsVerticalScrollIndicator = NO;
     _textView.layer.masksToBounds = YES;
