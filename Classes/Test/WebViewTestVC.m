@@ -44,6 +44,7 @@
     _textView.textContainer.lineBreakMode = NSLineBreakByCharWrapping;
     _textView.showsVerticalScrollIndicator = NO;
     _textView.layer.masksToBounds = YES;
+    [self.view addSubview:_textView];
     
     UIButton *clearButton = [UIButton buttonWithType:UIButtonTypeSystem];
     clearButton.frame = CGRectMake(_textView.frame.origin.x, _textView.frame.origin.y+_textView.frame.size.height+20, _textView.frame.size.width/2.0-10, 40);
@@ -53,6 +54,7 @@
     
     UIButton *testButton = [UIButton buttonWithType:UIButtonTypeSystem];
     testButton.frame = CGRectMake([UIScreen mainScreen].bounds.size.width/2.0+10, _textView.frame.origin.y+_textView.frame.size.height+20, _textView.frame.size.width/2.0-10, 40);
+    [testButton setTitle:@"确定" forState:UIControlStateNormal];
     [testButton addTarget:self action:@selector(handleTestButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:testButton];
 }
