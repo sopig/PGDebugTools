@@ -67,7 +67,7 @@
         case 0:
         {
             WebViewTestVC *vc = [[WebViewTestVC alloc] init];
-            [self.navigationController pushViewController:vc animated:NO];
+            [self.navigationController pushViewController:vc animated:YES];
         }
             break;
             
