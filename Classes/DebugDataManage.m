@@ -12,7 +12,7 @@
 #import "APIServiceSource.h"
 #import "DataManagerSource.h"
 #import "FLEXManager.h"
-
+#import "TestCodingVC.h"
 
 @interface DebugDataManage ()
 
@@ -81,6 +81,12 @@
             [[FLEXManager sharedManager] showExplorer];
             [self.vc dismissViewControllerAnimated:YES completion:nil];
         
+    }else if (row==6){
+        TestCodingVC *vc = [[TestCodingVC alloc] init];
+        UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+        [self.vc presentViewController:nvc animated:NO completion:^{
+            
+        }];
     }
 }
 

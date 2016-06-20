@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */; };
+		9F76F29D1D15436100D5D818 /* WebViewTestDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */; };
+		9F76F2A01D15437C00D5D818 /* WebViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */; };
 		A573EFDA1CC6440300472441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFD91CC6440300472441 /* main.m */; };
 		A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFDC1CC6440300472441 /* AppDelegate.m */; };
 		A573EFE01CC6440300472441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFDF1CC6440300472441 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 		114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGDebugTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.debug.xcconfig"; sourceTree = "<group>"; };
 		1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.release.xcconfig"; sourceTree = "<group>"; };
+		9F76F29B1D15436100D5D818 /* WebViewTestDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestDisplayVC.h; sourceTree = "<group>"; };
+		9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTestDisplayVC.m; sourceTree = "<group>"; };
+		9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestVC.h; sourceTree = "<group>"; };
+		9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTestVC.m; sourceTree = "<group>"; };
 		A573EFD51CC6440300472441 /* PGDebugTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGDebugTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A573EFD91CC6440300472441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A573EFDB1CC6440300472441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +118,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F76F29A1D15433900D5D818 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9F76F29B1D15436100D5D818 /* WebViewTestDisplayVC.h */,
+				9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */,
+				9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */,
+				9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		A573EFCC1CC6440300472441 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +175,7 @@
 		A573EFEF1CC6445C00472441 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F76F29A1D15433900D5D818 /* Test */,
 				A573F0C01CC8659400472441 /* NetworkEye */,
 				A573EFF01CC6445C00472441 /* DebugConsole.h */,
 				A573EFF11CC6445C00472441 /* DebugConsole.m */,
@@ -332,6 +350,7 @@
 				A573EFE01CC6440300472441 /* ViewController.m in Sources */,
 				A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */,
 				A573F0DB1CC8659400472441 /* UIWindow+NEExtension.m in Sources */,
+				9F76F29D1D15436100D5D818 /* WebViewTestDisplayVC.m in Sources */,
 				A573F0DA1CC8659400472441 /* NEURLSessionConfiguration.m in Sources */,
 				A573EFDA1CC6440300472441 /* main.m in Sources */,
 				A573F0D91CC8659400472441 /* NEShakeGestureManager.m in Sources */,
@@ -340,6 +359,7 @@
 				A573F0D51CC8659400472441 /* NEHTTPEyeSettingsViewController.m in Sources */,
 				A573F0021CC6445C00472441 /* JXSetAPIServerViewController.m in Sources */,
 				A573F0D31CC8659400472441 /* NEHTTPEye.m in Sources */,
+				9F76F2A01D15437C00D5D818 /* WebViewTestVC.m in Sources */,
 				A573F0D81CC8659400472441 /* NEHTTPModelManager.m in Sources */,
 				A573F0D71CC8659400472441 /* NEHTTPModel.m in Sources */,
 				A573F0661CC7598300472441 /* TestCodingVC.m in Sources */,
