@@ -17,7 +17,6 @@
 @implementation WKWebViewTestDisplayVC
 
 - (void)dealloc{
-    [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
     [_webView removeObserver:self forKeyPath:@"title"];
 }
 
