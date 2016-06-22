@@ -8,7 +8,7 @@
 
 #import "TestCodingVC.h"
 #import "WebViewTestVC.h"
-#import "WKWebViewTestVC.h"
+//#import "WKWebViewTestVC.h"
 
 @interface TestCodingVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -53,7 +53,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -77,8 +77,8 @@
             break;
         case 1:
         {
-            WKWebViewTestVC *vc = [[WKWebViewTestVC alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
+//            WKWebViewTestVC *vc = [[WKWebViewTestVC alloc] init];
+//            [self.navigationController pushViewController:vc animated:YES];
         }
         default:
             break;
