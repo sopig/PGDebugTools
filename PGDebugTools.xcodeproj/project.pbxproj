@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */; };
+		9F578F101D1A25EF0018691B /* WKWebViewTestDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F578F0F1D1A25EF0018691B /* WKWebViewTestDisplayVC.m */; };
+		9F578F131D1A26080018691B /* WKWebViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F578F121D1A26080018691B /* WKWebViewTestVC.m */; };
 		9F76F29D1D15436100D5D818 /* WebViewTestDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */; };
 		9F76F2A01D15437C00D5D818 /* WebViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */; };
 		A573EFDA1CC6440300472441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFD91CC6440300472441 /* main.m */; };
@@ -39,6 +41,10 @@
 		114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGDebugTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.debug.xcconfig"; sourceTree = "<group>"; };
 		1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.release.xcconfig"; sourceTree = "<group>"; };
+		9F578F0E1D1A25EF0018691B /* WKWebViewTestDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTestDisplayVC.h; sourceTree = "<group>"; };
+		9F578F0F1D1A25EF0018691B /* WKWebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestDisplayVC.m; sourceTree = "<group>"; };
+		9F578F111D1A26080018691B /* WKWebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTestVC.h; sourceTree = "<group>"; };
+		9F578F121D1A26080018691B /* WKWebViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestVC.m; sourceTree = "<group>"; };
 		9F76F29B1D15436100D5D818 /* WebViewTestDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestDisplayVC.h; sourceTree = "<group>"; };
 		9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTestDisplayVC.m; sourceTree = "<group>"; };
 		9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestVC.h; sourceTree = "<group>"; };
@@ -125,6 +131,10 @@
 				9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */,
 				9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */,
 				9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */,
+				9F578F0E1D1A25EF0018691B /* WKWebViewTestDisplayVC.h */,
+				9F578F0F1D1A25EF0018691B /* WKWebViewTestDisplayVC.m */,
+				9F578F111D1A26080018691B /* WKWebViewTestVC.h */,
+				9F578F121D1A26080018691B /* WKWebViewTestVC.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -343,12 +353,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F578F131D1A26080018691B /* WKWebViewTestVC.m in Sources */,
 				A573F0D61CC8659400472441 /* NEHTTPEyeViewController.m in Sources */,
 				A573F0011CC6445C00472441 /* DebugToolsViewController.m in Sources */,
 				A573EFFF1CC6445C00472441 /* DebugDataManage.m in Sources */,
 				A573F0001CC6445C00472441 /* DebugTool.m in Sources */,
 				A573EFE01CC6440300472441 /* ViewController.m in Sources */,
 				A573EFDD1CC6440300472441 /* AppDelegate.m in Sources */,
+				9F578F101D1A25EF0018691B /* WKWebViewTestDisplayVC.m in Sources */,
 				A573F0DB1CC8659400472441 /* UIWindow+NEExtension.m in Sources */,
 				9F76F29D1D15436100D5D818 /* WebViewTestDisplayVC.m in Sources */,
 				A573F0DA1CC8659400472441 /* NEURLSessionConfiguration.m in Sources */,

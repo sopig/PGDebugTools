@@ -8,6 +8,7 @@
 
 #import "TestCodingVC.h"
 #import "WebViewTestVC.h"
+#import "WKWebViewTestVC.h"
 
 @interface TestCodingVC ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -52,12 +53,16 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
-    cell.textLabel.text = @"WebView测试";
+    if (indexPath.row==0) {
+        cell.textLabel.text = @"WebView测试";
+    }else if (indexPath.row==1){
+        cell.textLabel.text = @"WKWebView测试";
+    }
     return cell;
 }
 
@@ -70,7 +75,11 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-            
+        case 1:
+        {
+            WKWebViewTestVC *vc = [[WKWebViewTestVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
         default:
             break;
     }
