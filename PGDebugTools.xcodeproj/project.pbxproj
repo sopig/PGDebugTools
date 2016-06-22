@@ -10,6 +10,7 @@
 		222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */; };
 		9F578F101D1A25EF0018691B /* WKWebViewTestDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F578F0F1D1A25EF0018691B /* WKWebViewTestDisplayVC.m */; };
 		9F578F131D1A26080018691B /* WKWebViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F578F121D1A26080018691B /* WKWebViewTestVC.m */; };
+		9F578F171D1A2FED0018691B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F578F161D1A2FED0018691B /* WebKit.framework */; };
 		9F76F29D1D15436100D5D818 /* WebViewTestDisplayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */; };
 		9F76F2A01D15437C00D5D818 /* WebViewTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F76F29F1D15437C00D5D818 /* WebViewTestVC.m */; };
 		A573EFDA1CC6440300472441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A573EFD91CC6440300472441 /* main.m */; };
@@ -45,6 +46,7 @@
 		9F578F0F1D1A25EF0018691B /* WKWebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestDisplayVC.m; sourceTree = "<group>"; };
 		9F578F111D1A26080018691B /* WKWebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewTestVC.h; sourceTree = "<group>"; };
 		9F578F121D1A26080018691B /* WKWebViewTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewTestVC.m; sourceTree = "<group>"; };
+		9F578F161D1A2FED0018691B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9F76F29B1D15436100D5D818 /* WebViewTestDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestDisplayVC.h; sourceTree = "<group>"; };
 		9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTestDisplayVC.m; sourceTree = "<group>"; };
 		9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestVC.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F578F171D1A2FED0018691B /* WebKit.framework in Frameworks */,
 				222E5DC907546A20012053B9 /* libPods-PGDebugTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +113,7 @@
 		2A2DCB3878307EA4C5D1468A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F578F161D1A2FED0018691B /* WebKit.framework */,
 				114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */,
 			);
 			name = Frameworks;
