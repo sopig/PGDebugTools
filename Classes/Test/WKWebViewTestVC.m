@@ -88,7 +88,7 @@
 
 - (void)handleTestButtonClick:(UIButton *)button{
     [self.view endEditing:YES];
-    WebViewTestDisplayVC *vc = [[WebViewTestDisplayVC alloc] init];
+    WKWebViewTestDisplayVC *vc = [[WKWebViewTestDisplayVC alloc] init];
     vc.urlString = _textView.text;
     [self.navigationController pushViewController:vc animated:YES];
 }
