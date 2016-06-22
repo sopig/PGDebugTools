@@ -84,6 +84,9 @@
 
 - (void)handleClearButtonClick:(UIButton *)button{
     [[NSURLCache sharedURLCache] removeAllCachedResponses];
+    for(NSHTTPCookie *cookie in [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]) {
+        [[NSHTTPCookieStorage sharedHTTPCookieStorage] deleteCookie:cookie];
+    }
 }
 
 - (void)handleTestButtonClick:(UIButton *)button{
