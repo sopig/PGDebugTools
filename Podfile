@@ -9,7 +9,7 @@ target 'PGDebugTools' do
 
 pod 'Masonry', '~> 0.6.4'
 
-pod 'PGAppconfig', :git => "https://github.com/sopig/PGAppconfig.git"
+pod 'PGAppconfig', :git => "http://gitlab.9ijx.com/iOS/PGAppconfig.git"
 
 pod 'FMDB/SQLCipher', "~> 2.5"
 

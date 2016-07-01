@@ -4,7 +4,7 @@ PODS:
     - SQLCipher
   - Masonry (0.6.4)
   - NSDictionary+Accessors (1.0.0)
-  - PGAppconfig (0.0.1)
+  - PGAppconfig (0.0.2)
   - SQLCipher (3.1.0):
     - SQLCipher/standard (= 3.1.0)
   - SQLCipher/common (3.1.0)
@@ -16,23 +16,23 @@ DEPENDENCIES:
   - FMDB/SQLCipher (~> 2.5)
   - Masonry (~> 0.6.4)
   - NSDictionary+Accessors
-  - PGAppconfig (from `https://github.com/sopig/PGAppconfig.git`)
+  - PGAppconfig (from `http://gitlab.9ijx.com/iOS/PGAppconfig.git`)
 
 EXTERNAL SOURCES:
   PGAppconfig:
-    :git: https://github.com/sopig/PGAppconfig.git
+    :git: http://gitlab.9ijx.com/iOS/PGAppconfig.git
 
 CHECKOUT OPTIONS:
   PGAppconfig:
-    :commit: 62fe0166c81c40ba2af248bc418ee7cdbf34505b
-    :git: https://github.com/sopig/PGAppconfig.git
+    :commit: 888b55411c51235d984f7f85a866f8630bb25359
+    :git: http://gitlab.9ijx.com/iOS/PGAppconfig.git
 
 SPEC CHECKSUMS:
   FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   NSDictionary+Accessors: 5c453c028da416525428c938602c7c96704a9bbc
-  PGAppconfig: c9f12f596104411b95cee9497b9822a02db8bdf4
+  PGAppconfig: 0f5d7db117fd45c658924f3b2e67baa0037f45df
   SQLCipher: 4684434d5791db86512cd7e02172aefba575849e
 
 COCOAPODS: 0.39.0

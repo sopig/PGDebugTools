@@ -17,6 +17,7 @@
               [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_ONLINE],
               [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_TEST],
               [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_reserve],
+              [[JXAppConfigSurport surport] getServerWithType:JXAPISERVICE_Extension]
               ];
 }
 
