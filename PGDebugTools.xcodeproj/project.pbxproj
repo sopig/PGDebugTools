@@ -39,6 +39,7 @@
 		114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PGDebugTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1194A230630B98B3E3D97E7A /* Pods-PGDebugTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.debug.xcconfig"; sourceTree = "<group>"; };
 		1D9FC5B0948A6C666F6DC31F /* Pods-PGDebugTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGDebugTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGDebugTools/Pods-PGDebugTools.release.xcconfig"; sourceTree = "<group>"; };
+		9F578F161D1A2FED0018691B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9F76F29B1D15436100D5D818 /* WebViewTestDisplayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestDisplayVC.h; sourceTree = "<group>"; };
 		9F76F29C1D15436100D5D818 /* WebViewTestDisplayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTestDisplayVC.m; sourceTree = "<group>"; };
 		9F76F29E1D15437C00D5D818 /* WebViewTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTestVC.h; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		2A2DCB3878307EA4C5D1468A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F578F161D1A2FED0018691B /* WebKit.framework */,
 				114F41B5D99187A878D2F6FF /* libPods-PGDebugTools.a */,
 			);
 			name = Frameworks;

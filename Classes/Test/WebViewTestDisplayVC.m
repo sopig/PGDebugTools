@@ -30,7 +30,7 @@
     self.webView.mediaPlaybackRequiresUserAction = NO;
     self.webView.scrollView.bounces = NO;
     if ([self.urlString isKindOfClass:[NSString class]]&&self.urlString.length) {
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlString]]];
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlString] cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:60]];
     }
 }
 
